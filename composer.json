@@ -1,0 +1,25 @@
+{
+    "name": "pc/mvc",
+    "authors": [
+        {
+            "name": "Abdulrahman",
+            "email": "abdulrahmansaber120@gmail.com"
+        }
+    ],
+
+    "autoload": {
+      "files": [
+        "helper/functions/config.php",
+        "helper/functions/config.php",
+
+      ],
+      "psr-4": {
+        "app\\": "./"
+      }
+    },
+    "require": {
+      "vlucas/phpdotenv": "^5.3",
+      "ext-pdo": "*"
+    },
+  "description": ""
+}
